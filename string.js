@@ -59,6 +59,7 @@ for (const char of stringToReverse) {
   reversed = char + reversed; // Prepend each character
 }
 // console.log(reversed);
+
 // ** Reverse using split, reverse, and join methods (Shortcut)
 const stringToReverse = "This string will be reversed";
 const reversedString = stringToReverse.split("").reverse().join("");
